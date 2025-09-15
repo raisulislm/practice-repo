@@ -10,7 +10,7 @@ public final class Student {
 
     private Student next; // for chaining students manually
 
-    public Student(long id, String fullName, String bloodGroup, float cgpa) {
+    public Student(long id, String fullName, String bloodGroup, float cgpa, int serial) {
         this.id = id;
         this.fullName = fullName;
         this.bloodGroup = bloodGroup;
